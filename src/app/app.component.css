@@ -1,0 +1,29 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#numbers {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#numbers td, #numbers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#numbers tr:nth-child(even){background-color: #def432;}
+
+#numbers tr:hover {background-color: #d7d7c4;}
+
+#numbers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #171893;
+    color: white;
+}
